@@ -22,3 +22,41 @@ cd dwl && $TOOL make clean install && cd ..
 git clone https://github.com/sahaj-b/wayvibes.git wayvibes
 cd wayvibes && $TOOL make clean install && cd ..
 ```
+# default keybindings
+
+MOD = super key
+
+## launch
+- `MOD + space` : wmenu launcher
+- `MOD + q` : foot terminal
+- `MOD + w` : brave browser
+- `MOD + e` : thunar file manager
+- `printscreen` : fullscreen screenshot 
+- `ctrl + printscreen` : region screenshot
+
+## windows
+- `MOD + j/k` : focus up/down
+- `MOD + h/l` : resize width
+- `MOD + return` : promote to master
+- `MOD + c` : close
+- `MOD + v` : toggle float
+- `MOD + shift + return` : fullscreen
+
+## layout
+- `MOD + t` : tile
+- `MOD + f` : float
+- `MOD + d` : dwindle
+
+## tags
+- `MOD + 1-6` : go to tag
+- `MOD + shift + 1-6` : move window to tag
+- `MOD + tab` : previous tag
+- `MOD + 0` : show all
+
+## gaps
+- `Alt + p` : toggle
+- `Alt + i/o` : decrease/increase
+
+## misc
+- `MOD + b` : toggle bar
+- `MOD + m` : quit
